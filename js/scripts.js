@@ -16,3 +16,10 @@ $(document).ready(function() {
     event.preventDefault();
   });
 });
+
+$(document).ready(function() {
+  $(".clickable").click(function() {
+    $(".kidshowing").toggle();
+    $(".kidhidden").toggle();
+  });
+});
