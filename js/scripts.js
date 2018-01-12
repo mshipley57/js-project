@@ -23,3 +23,10 @@ $(document).ready(function() {
     $(".kidhidden").toggle();
   });
 });
+
+$(document).ready(function() {
+  $(".clickable").click(function() {
+    $(".rubyshowing").toggle();
+    $(".rubyhidden").toggle();
+  });
+});
