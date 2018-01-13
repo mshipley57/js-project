@@ -19,3 +19,8 @@ p {
 .kidshowing {
   display: none;
 }
+
+
+body {
+    padding-bottom: 50px;
+}
